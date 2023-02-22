@@ -8,7 +8,7 @@ function GetPrime(n) {
   for (let i = 0; i < n;)  {  //
     let IsPrime = true; //to check and track if the number is prime or not
 
-    for (let i = 2; i <= Math.sqrt(number); i++) { //to check if the numbers are divisible by any 
+    for (let i = 2; i <= Math.sqrt(number); i++) { //to check if the numbers are divisible by any number
       if (number % i === 0) { //if not a prime then false 
         IsPrime = false; 
         break;  //stop if the number is not prime
